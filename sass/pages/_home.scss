@@ -7,9 +7,6 @@ body {
   background: #ffffff;
   overflow-x: hidden;
   font-family: $kfont;
-  animation: fadeInAnimation ease 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
 
@@ -2344,29 +2341,29 @@ body {
         position: fixed;
         z-index: 100;
 
-      h1{
-        font-size: 85px;
-        color:#fff;
-        user-select: none;
-        text-transform: uppercase;
-        position: relative;
-        letter-spacing: 5px;
-        // -webkit-text-stroke: 0.1vw #2ed573;
+      // h1{
+      //   font-size: 85px;
+      //   color:#fff;
+      //   user-select: none;
+      //   text-transform: uppercase;
+      //   position: relative;
+      //   letter-spacing: 5px;
+      //   // -webkit-text-stroke: 0.1vw #2ed573;
 
-        &::before{
-          content: "7STOCKHOLDINGS";
-          position: absolute;
-          left: 0;
-          top: 0;
-          width: 100%;
-          height: 112%;
-          // color: #2ed573;
-          color: #ff022c;
-          overflow: hidden;
-          animation: slide 5s linear infinite;
-        }
+      //   &::before{
+      //     content: "7STOCKHOLDINGS";
+      //     position: absolute;
+      //     left: 0;
+      //     top: 0;
+      //     width: 100%;
+      //     height: 112%;
+      //     // color: #2ed573;
+      //     color: #ff022c;
+      //     overflow: hidden;
+      //     animation: slide 5s linear infinite;
+      //   }
 
-      }
+      // }
     }
 
 // Preloader 

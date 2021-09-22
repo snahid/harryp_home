@@ -215,7 +215,10 @@ var nextIcon = '<img src="./assets/images/bright.svg" alt="">';
     // $(window).load(function(){
     //     $('#preloader').delay(5000).hide();
     //    });
-    setTimeout(function(){        
+
+   
+    
+       setTimeout(function(){     
         $('#preloader').fadeOut();
         $('#preloader').delay(150).fadeOut('slow'); 
-    }, 4000);
+    }, 3000);
