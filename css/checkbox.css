@@ -175,3 +175,37 @@
   z-index: 1;
   filter: blur(30px);
 }
+
+
+
+
+
+/* Ripple Effect  */
+@keyframes ripple {
+    0%{
+      width: 0px;
+      height: 0px;
+      opacity: 0.5;
+    }
+    100%{
+      width: 500px;
+      height: 500px;
+      opacity: 0;
+    }
+}
+/* Ripple Effect  */
+
+
+
+/* Accordion  */
+.accordion-button:not(.collapsed)::after{
+  background-image: url(../assets/images/accordion-icon.svg);
+  
+}
+/* .accordion-item:not(:first-of-type){
+  border: none !important;
+} */
+/* .accordion-item:first-of-type{
+  border: none !important;
+} */
+/* Accordion  */

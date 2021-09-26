@@ -36,6 +36,9 @@
             .about-navbar{
                 .nav-item{
                     padding: 0 12px !important;
+                    @media(max-width: 1030px){
+                        padding: 0 4px !important;
+                    }
                     .about-nav{
                       
                         &:hover{

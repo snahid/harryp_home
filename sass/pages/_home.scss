@@ -102,6 +102,10 @@ body {
         .nav-item {
           padding: 0 13px;
 
+          @media(max-width: 1053px){
+            padding: 0 4px;
+          }
+
           a {
             color: #403D50;
             font-family: $kfont;

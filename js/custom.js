@@ -3,6 +3,27 @@ $('.carousel').carousel({
     interval: false
 });
 
+$(window).scroll(function () {
+    if ($(document).scrollTop() >= 863) {
+        $(".sticky-tab-section").addClass("bottom-sticky");
+        $(".left-side-menu-wrapper").css({
+            "visibility": "visible",
+            "opacity": "1"
+        });
+        $(".bottom-content-section-wrapper").css({
+            "padding-top": "130px"
+        });
+    } else {
+        $(".sticky-tab-section").removeClass("bottom-sticky");
+        $(".left-side-menu-wrapper").css({
+            "visibility": "hidden",
+            "opacity": "0"
+        });
+        $(".bottom-content-section-wrapper").css({
+            "padding-top": "0px"
+        });
+    }
+    });
 
 
 
@@ -222,3 +243,7 @@ var nextIcon = '<img src="./assets/images/bright.svg" alt="">';
         $('#preloader').fadeOut();
         $('#preloader').delay(150).fadeOut('slow'); 
     }, 3000);
+
+
+
+  
